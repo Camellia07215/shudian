@@ -1,0 +1,4 @@
+id: digital-logic-expert
+name: digital-logic-expert
+description: 数字逻辑全流程智能助教（分析/设计/调优/验证闭环）
+entry: lib/index.js

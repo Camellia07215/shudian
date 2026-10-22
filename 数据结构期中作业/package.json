@@ -1,0 +1,28 @@
+{
+  "name": "dsh-digital-logic-expert",
+  "version": "1.0.0",
+  "description": "数字逻辑全流程智能助教 Skill 的 DeepSeek Harness (dsh) Cordis 插件：分析→设计→调优→验证→评估全流程闭环",
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "skills/",
+    "cordis.patch.yml"
+  ],
+  "scripts": {
+    "test": "node _selftest.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "skill",
+    "digital-logic",
+    "数字逻辑"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    }
+  }
+}
